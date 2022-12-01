@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    
+ }
+ 
+  header {
+    font-size:large;
+    color: rgba(216, 216, 216, 0.911);
+    font-family: 'Courgette', cursive;    
+    box-sizing: border-box;
+    
+
+        text-align: center;
+    
+   }
+  body {
+    background: url("https://wallpaperaccess.com/full/2184693.jpg") center;
+    background-size: cover;
+    min-height: 600px;
+    font-family: 'Playfair Display', serif;
+  }
+  nav {
+    text-align: center;
+    margin-top: 2%;
+  }
+  .menu {
+    display: inline-block;
+  }
+  .menu > li {
+    float: left;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    font-size: 17px;
+  }
+  .Sousmenu {
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 250ms ease-in-out;
+  }
+  .Sousmenu li {
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 0;
+    color: rgb(10, 153, 158);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 250ms ease-in-out;
+  }
+  .Sousmenu li:last-child {
+    border-bottom: 0;
+  }
+  .Sousmenu li:hover {
+    background: black;
+}
+  .menu > li:hover .Sousmenu li {
+   transform: scale(1);
+}
+  .menu > li:hover .Sousmenu {
+   transform: scale(1);
+}
+
+ article {
+  display: inline-block;
+  color: rgb(187, 183, 183);
+  font-size: large;
+  text-align: left;
+  background: url( "https://www.xmple.com/wallpaper/purple-black-gradient-linear-960x540-c2-800080-000000-a-270-f-14.svg");
+  margin-top: 1%;
+  width: 95%;
+  border-color: #ffffff;
+  border-style:double;
+  border-width: 14px;
+  margin-left: 2%;
+  columns: 16cm;
+  text-indent: 5px;
+  
+  
+  } 
+
+  section{ 
+  background-color: #c1c1c1;
+  background-image: linear-gradient(180deg, #c1c1c1 0%, #5e5e68 50%, #a2a2a2 100%);
+  border-width: 5px;
+  margin-bottom: 40px;
+  margin-right: 4%;
+  margin-left: 3%;
+  border-color: rgb(5, 5, 5);
+  border-style: groove
+}
+  
+
+h1{
+  text-align: center;
+  text-decoration:underline;
+  text-decoration-color: black;
+  margin-top: 10px;
+  
+}
+.abibac{
+  width: 480px;
+  height: 240px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  border-style: groove;
+  border-color: rgb(59, 55, 78);
+  border-width: 10px;
+}
+
+
+
+.alsace{
+  width: 480px;
+  height: 240px;
+  float: right;
+  margin-top: 9%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: groove;
+  border-color: rgb(59, 55, 78);
+  border-width: 10px;
+}
+
+
+
+.ensisa{
+  width: 480px;
+  height: 240px;
+  float: right;
+  margin-top: 5%;
+  margin-left: 0px;
+  margin-right: 10%;
+  border-style: groove;
+  border-color: rgb(59, 55, 78);
+  border-width: 10px;
+}
+
+
+
+
+.michelin{
+  width: 480px;
+  height: 240px;
+  float: right;
+  margin-top: 18%;
+  margin-left: 0px;
+  margin-right: 10%;
+margin-bottom: 12%;
+  border-style: groove;
+  border-color: rgb(59, 55, 78);
+  border-width: 10px;
+}
+
+
+
+
+.college{
+
+  width: 480px;
+  height: 240px;
+  float: right;
+  margin-top: 10%;
+  margin-left: 0px;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  border-style: groove;
+  border-color: rgb(59, 55, 78);
+  border-width: 10px;
+}

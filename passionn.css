@@ -1,0 +1,105 @@
+
+
+body {
+    background-color: #55555585;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;;
+    color: #000000;
+  }
+  p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+    text-indent: 30px;
+  }
+  .image {
+    background: url("https://images.hdqwalls.com/wallpapers/football-ground-sun-rays-4k-ev.jpg") no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+    min-height: 700px;
+  }
+  .contenupage {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    
+  }
+  nav {
+    text-align: right;
+    width: 93%;
+  }
+  .eng{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    border-style: double;
+    border-width: 5px;
+    border-color: aliceblue;
+ 
+    
+ }.met{
+   width: 250px;
+   height: 250px;
+   position:absolute;
+   margin-top: 5%;
+   margin-left: 3%;
+   border-style: double;
+    border-width: 5px;
+    border-color: aliceblue;
+    
+    
+    
+ }
+
+.foot{
+    width: 250px;
+    height: 250px; 
+    float: right;
+    margin-right: 3%;
+    display: flex;
+   margin-top: 10%;
+   border-style: double;
+    border-width: 5px;
+    border-color: rgb(4, 52, 94);
+
+}
+
+.ligue{
+    width: 250px;
+    height: 250px; 
+    position:absolute;
+    margin-top: 22%;
+    margin-left: 3%;
+    border-style: double;
+    border-width: 5px;
+    border-color: aliceblue;
+    
+
+
+}
+.rm{
+    width: 300px;
+    height: 200px; 
+    margin-left: 3%;
+   display: flex;
+   margin-top:42%;
+   position: absolute;
+   margin-bottom: 5px;
+   border-style: double;
+   border-width: 5px;
+   border-color: aliceblue;
+    
+    
+}
